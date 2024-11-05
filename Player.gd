@@ -57,11 +57,4 @@ func start(pos):
 
 
 
-func game_over():
-	$ScoreTimer.stop()
-	$MobTimer.stop()
-	
-func new_game():
-	score = 0
-	$Player.start($StartPosition.position)
-	$StartTimer.start()
+
